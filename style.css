@@ -171,6 +171,19 @@ a {
   transform: translateY(-3px);
 }
 
+.btn-outline {
+    background: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--text-muted);
+}
+
+.btn-outline:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px -15px var(--accent-glow);
+}
+
 .btn-icon {
   font-size: 1.5rem;
   color: var(--text-main);
